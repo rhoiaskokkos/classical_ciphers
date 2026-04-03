@@ -13,6 +13,7 @@ Each cipher includes a cracker demonstrating its real-world weaknesses:
 - **Vigenère** — uses Index of Coincidence to identify the key length, then scores each candidate shift against English letter frequency distributions to recover the key automatically. Note: results may be unreliable for texts under 200 characters.
 
 ## Project Structure
+```
 classical_ciphers/
 ├── ciphers/
 │   ├── __init__.py
@@ -22,6 +23,7 @@ classical_ciphers/
 ├── main.py
 ├── .gitignore
 └── README.md
+```
 
 ## Installation
 1. Clone the repository
